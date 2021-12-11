@@ -11,6 +11,7 @@
 		4D909EB52764F62500EBCD0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D909EB42764F62500EBCD0F /* ContentView.swift */; };
 		4D909EB72764F63700EBCD0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D909EB62764F63700EBCD0F /* Assets.xcassets */; };
 		4D909EBA2764F63700EBCD0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D909EB92764F63700EBCD0F /* Preview Assets.xcassets */; };
+		4DF437242764F9E100CB5C81 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF437232764F9E100CB5C81 /* Numbers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4D909EB42764F62500EBCD0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4D909EB62764F63700EBCD0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D909EB92764F63700EBCD0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DF437232764F9E100CB5C81 /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,9 @@
 			isa = PBXGroup;
 			children = (
 				4D909EB12764F62500EBCD0F /* TwoHandNumbers */,
+				4D909EC22764F67A00EBCD0F /* Views */,
+				4D909EC12764F66D00EBCD0F /* Model */,
+				4D909EB82764F63700EBCD0F /* Preview Content */,
 				4D909EB02764F62500EBCD0F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,9 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				4D909EB22764F62500EBCD0F /* TwoHandNumbersApp.swift */,
-				4D909EB42764F62500EBCD0F /* ContentView.swift */,
-				4D909EB62764F63700EBCD0F /* Assets.xcassets */,
-				4D909EB82764F63700EBCD0F /* Preview Content */,
 			);
 			path = TwoHandNumbers;
 			sourceTree = "<group>";
@@ -64,7 +66,25 @@
 			children = (
 				4D909EB92764F63700EBCD0F /* Preview Assets.xcassets */,
 			);
-			path = "Preview Content";
+			name = "Preview Content";
+			path = "TwoHandNumbers/Preview Content";
+			sourceTree = "<group>";
+		};
+		4D909EC12764F66D00EBCD0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4DF437232764F9E100CB5C81 /* Numbers.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D909EC22764F67A00EBCD0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D909EB42764F62500EBCD0F /* ContentView.swift */,
+				4D909EB62764F63700EBCD0F /* Assets.xcassets */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +159,7 @@
 			files = (
 				4D909EB52764F62500EBCD0F /* ContentView.swift in Sources */,
 				4D909EB32764F62500EBCD0F /* TwoHandNumbersApp.swift in Sources */,
+				4DF437242764F9E100CB5C81 /* Numbers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
